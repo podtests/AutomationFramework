@@ -1,0 +1,6 @@
+2023-11-05 19:27:52,901 ERROR i.p.p.LoginPage [main] LoginPage class object created
+2023-11-05 19:27:55,024 INFO s.LoginStepDef [main] Username is: akhiljda@gmail.com
+2023-11-05 19:27:55,025 INFO s.LoginStepDef [main] Password is:Pass
+2023-11-05 19:27:59,984 ERROR i.p.p.LoginPage [main] LoginPage class object created
+2023-11-05 19:28:02,432 INFO s.LoginStepDef [main] Username is: akhil@gmail.com
+2023-11-05 19:28:02,432 INFO s.LoginStepDef [main] Password is:Password
