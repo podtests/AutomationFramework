@@ -63,9 +63,15 @@ public class LoginTest {
     }
 
     @Test
+    public void TC4() {
+        System.out.println("Changes made by SDET2");
+    }
+
+    @Test
     public void TC3( ) {
         System.out.println("Added By SDET1");
     }
+
 /*
     @Test
     public void loginSuccess2() {
