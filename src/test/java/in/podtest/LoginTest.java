@@ -61,6 +61,11 @@ public class LoginTest {
         //Assert.assertEquals(wd.getCurrentUrl(), "https://demo.evershop.io/");
 
     }
+
+    @Test
+    public void TC3( ) {
+        System.out.println("Added By SDET1");
+    }
 /*
     @Test
     public void loginSuccess2() {
