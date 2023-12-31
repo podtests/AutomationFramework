@@ -24,13 +24,13 @@ public class LoginPage {
 
     public LoginPage get() {
        // log.error("Login page accessed");
-        this.wd.get("https://demo.evershop.io/account/login");
+        wd.get("https://demo.evershop.io/account/login");
         return this;
     }
 
     public LoginPage get(String URL) {
         // log.error("Login page accessed");
-        this.wd.get(URL);
+        wd.get(URL);
         return this;
     }
 

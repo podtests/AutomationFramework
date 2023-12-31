@@ -33,7 +33,7 @@ public class LoginTest {
     private static Logger log = LogManager.getLogger(LoginTest.class.getName());
 
     @Parameters({"browser"})
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preSteps(String browserName) {
     //public void preSteps() {
         prop = new ConfigReader();
