@@ -51,7 +51,7 @@ public class LoginTest {
 
     }
 
-    @Test(testName = "Verify User able to login")
+    @Test(testName = "Verify User able to login", groups = {"jenkinsDemo"})
     public void loginSuccess() {
 
         login = new LoginPage(wd);

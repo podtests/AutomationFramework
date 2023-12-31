@@ -3,9 +3,14 @@
 <suite name="First Test Suite" >
     <test name="Chrome Test ">
         <parameter name="browser" value="chrome"></parameter>
+        <groups>
+            <run>
+                <include name="jenkinsDemo"></include>
+            </run>
+        </groups>
         <classes>
             <!--class name="in.podtest.LoginTest"/-->
-            <class name="runners.Runner"/>
+            <class name="in.podtest.LoginTest"/>
         </classes>
     </test>
 </suite>
